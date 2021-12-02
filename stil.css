@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("grid.jpg");
+	align-items: stretch;
+	
+}
+
+img, png{
+	
+	width: 200px;
+	height: 150px;
+}
+
+
+#zadatak1 img{
+	width: 700px;
+	height: 500px;
+	margin-top: 90px;
+	margin-left: 90px;
+	overflow: hidden;
+}
+
+
+
+#zadatak1 iframe {
+	overflow: clip;
+	border-radius: 10px;
+	position: absolute;
+	width:400px;
+	height:230px;
+	border:1px solid black;
+    margin-left: 100px
+}
+
+
+
+#f1{
+	margin-top: 90px;
+	overflow: hidden;
+	
+}
+
+#f2{
+	margin-top: 360px;
+	overflow: hidden;	
+}
+
+
+/***/
+
+#zadatak2 main {
+	background-image: url("slike/košara.jpg");
+	padding-top: 198px;	
+	padding-left: 73px;
+    width: 700px;
+    height: 700px;
+	margin-left: 90px;
+	background-repeat: no-repeat;
+	margin-top: 300px;
+	
+}
+
+#zadatak2 aside {
+    position: absolute;
+    left: 100px;
+	top: 700px;
+	
+}
+
+#zadatak2 main iframe{
+	
+   
+    width: 547px;
+    height: 337px;
+	overflow: clip;
+	style-border:none;
+	
+}
+
+#zadatak2 aside a {
+    
+    padding-right: 2px;
+    height: 102px;
+    overflow: hidden;
+}
+
+
+#iframe{
+	
+	overflow: hidden;
+}
+
+/**/
+
+
+
+@media screen and (max-width: 550px) {
+	.aside a{
+		position: static;
+	flex-basis: 80%;}
+	.main 
+		#zadatak2 main {
+			padding-top: 99px;	
+	padding-left: 36px;
+	margin-left: 45px;	
+	margin-top: 200px;		
+			
+	}
+	.aside img{
+		display: none;
+	}
+	.zadatak1 f1{
+		display: none;}
+	
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
